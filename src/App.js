@@ -4,8 +4,6 @@ import HomePage from "./container/HomePage/HomePage";
 import ProductsPage from "./container/ProductsPage/ProductsPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignInPage from "./container/SignInPage/SignInPage";
-import OrdersPage from "./container/OrdersPage/OrdersPage";
-import KartPage from "./container/KartPage/kartPage";
 
 
 function App() {
@@ -38,8 +36,7 @@ function App() {
             }
           />
            <Route path="/sign-in" element={<SignInPage /> } />
-           <Route path="/orders" element={<OrdersPage /> } />
-           <Route path="/my-kart" element={<KartPage /> } />
+ 
            
         </Routes>
         
