@@ -1,0 +1,16 @@
+.homepage_banner_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.homepage_banner_left > p{
+    font-size: 60px;
+    font-weight: 700px;
+    font-family:cursive;
+    color: darkmagenta;
+}
+
+.homepage_banner_right > img{
+    height: 300px;
+}

@@ -1,0 +1,8 @@
+.footer>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: cursive;
+}

@@ -1,0 +1,25 @@
+.KartPageBody_container{
+    background-color: #9eb4f3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 4% 6%;
+}
+.KartPageBody_box{
+     width: 600px;
+     height: 100px;
+     background-color: orange;
+     border-radius: 8px;
+     box-shadow: -4px 4px 4px 0px gray;
+}
+
+.KartPageBody_box_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: purple;
+    font-family: cursive;
+    padding-top: 5%;
+}
